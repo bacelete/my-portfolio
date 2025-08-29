@@ -18,7 +18,7 @@ export class AboutMe {
 
   texts = {
     pt: {
-      title: 'Olá, eu sou',
+      title: 'Olá, eu sou o',
       name: 'Arthur',
       subtitle: 'Sou um estudante de Engenharia de Software!',
       presentation: 'Estudante de Engenharia de Software na PUC Minas com formação técnica em Eletrônica pela UFMG, tenho paixão por tecnologia, desenvolvimento de sistemas e resolução de problemas. Atuo com Java, Spring Boot, Laravel, JavaScript, React e SQL, sempre buscando aprender mais e aplicar esse conhecimento em projetos reais.Gosto de entender o funcionamento das coisas, estudar temas diversos e encarar desafios que me tirem da zona de conforto. Acredito que tecnologia é uma ferramenta poderosa para transformar realidades — e é nisso que quero focar minha carreira.',
