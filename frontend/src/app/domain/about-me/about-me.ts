@@ -19,7 +19,7 @@ export class AboutMe {
   texts = {
     pt: {
       title: 'Olá, eu sou',
-      name: 'Gabriel',
+      name: 'Arthur',
       subtitle: 'Sou um estudante de Engenharia de Software e estagiário na Hotmart!',
       presentation: 'Olá! Sou um estudante de engenharia de software com 1 ano de experiência como QA e atualmente estagiário de engenharia de software na Hotmart, além de participar no projeto de extensão da WebTech na PUC Minas. Estudo bastante sobre Cybersegurança e DevOps, mas também tenho amplo conhecimento em desenvolvimento.',
       buttonWork: 'Conheça mais sobre meu trabalho',
