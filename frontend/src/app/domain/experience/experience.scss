@@ -2,6 +2,16 @@
     background-color: black;
 }
 
+.icon {
+    width: 60px;           /* Adjust size as needed */
+    height: 60px;          /* Keeps icons square */
+    object-fit: contain;   /* Prevents distortion */
+    vertical-align: middle;
+    margin-right: 16px;    /* Space between icon and text */
+    border-radius: 8px;    /* Optional: slightly rounded corners */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Optional: subtle shadow */
+}
+
 .box {
     display: flex;
     flex-direction: column;
@@ -53,10 +63,6 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-}
-
-.icon {
-    font-size: larger;
 }
 
 .experiences-title {
