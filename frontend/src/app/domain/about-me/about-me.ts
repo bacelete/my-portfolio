@@ -28,8 +28,8 @@ export class AboutMe {
     },
     en: {
       title: 'Hi, I am',
-      name: 'Arthur',
-      subtitle: 'I am a Software Engineering student!',
+      name: 'Arthur!',
+      subtitle: 'I am a Software Engineering student.',
       presentation: 'A Software Engineering student at PUC Minas with a technical degree in Electronics from UFMG, I am passionate about technology, systems development, and problem-solving. I work with Java, Spring Boot, Laravel, JavaScript, React, and SQL, always seeking to learn more and apply this knowledge to real-world projects. I enjoy understanding how things work, studying diverse topics, and tackling challenges that push me beyond my comfort zone. I believe that technology is my powerful tool for transforming realities—and that is what I want to focus on in my career.',
       buttonWork: 'Check out my work',
       buttonCV: 'Download CV',
