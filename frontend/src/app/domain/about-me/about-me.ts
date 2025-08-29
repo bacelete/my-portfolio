@@ -30,7 +30,7 @@ export class AboutMe {
       title: 'Hi, I am',
       name: 'Arthur',
       subtitle: 'I am a Software Engineering student!',
-      presentation: 'Hello! I\'m a software engineering student with one year of experience as a QA and currently a software engineering intern at Hotmart, in addition to participating in the WebTech extension project at PUC Minas. I study cybersecurity and DevOps, but I also have extensive development knowledge.',
+      presentation: 'A Software Engineering student at PUC Minas with a technical degree in Electronics from UFMG, I am passionate about technology, systems development, and problem-solving. I work with Java, Spring Boot, Laravel, JavaScript, React, and SQL, always seeking to learn more and apply this knowledge to real-world projects. I enjoy understanding how things work, studying diverse topics, and tackling challenges that push me beyond my comfort zone. I believe that technology is my powerful tool for transforming realities—and that is what I want to focus on in my career.',
       buttonWork: 'Check out my work',
       buttonCV: 'Download CV',
       sectionTitle: 'About Me'

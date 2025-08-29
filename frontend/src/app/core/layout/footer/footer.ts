@@ -12,20 +12,12 @@ import {NgOptimizedImage} from '@angular/common';
 export class Footer {
   public items: FooterItem[] = [
     {
-      "iconPath": "assets/icons/footer/x.png",
-      "url": ""
-    },
-    {
       "iconPath": "assets/icons/footer/linkedin.png",
-      "url": "https://www.linkedin.com/in/gabriel-nogueira-vieira-resende/"
-    },
-    {
-      "iconPath": "assets/icons/footer/youtube.png",
-      "url": "https://www.youtube.com/@gnvr-zb7tw"
+      "url": "https://www.linkedin.com/in/arthurbacelete/"
     },
     {
       "iconPath": "assets/icons/footer/instagram.png",
-      "url": "https://www.instagram.com/gabriel_nvresende/"
+      "url": "https://www.instagram.com/arthurbacelete/"
     }
   ];
 }
