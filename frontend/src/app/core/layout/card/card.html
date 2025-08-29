@@ -1,0 +1,24 @@
+<mat-card class="example-card" appearance="outlined">
+  <mat-card-header [class.invisible]="isZoomed">
+    <mat-card-title>{{ title }}</mat-card-title>
+  </mat-card-header>
+  <div class="card-content-row">
+    <div class="card-image-side">
+      <img
+        mat-card-image
+        [src]="imageUrl"
+        [alt]="title"
+        [class.zoomed]="isZoomed"
+        (click)="toggleZoom()"
+      >
+    </div>
+    <div class="card-info-side" [class.invisible]="isZoomed">
+      <mat-card-content>
+        <p>{{ description }}</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <a mat-button [href]="linkUrl" target="_blank">{{ linkText }}</a>
+      </mat-card-actions>
+    </div>
+  </div>
+</mat-card>

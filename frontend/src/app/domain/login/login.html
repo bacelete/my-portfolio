@@ -1,0 +1,22 @@
+<section>
+  <app-hero [title]="'LOGIN'" [description]="'Seja muito bem vindo ano nosso Portfolio'" class="hero" />
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <ul>
+      <li>
+        <app-generic-input
+          [inputType]="'text'"
+          [label]="'Username'"
+          [control]="this.getControl('username')"
+          [required]="true" />
+      </li>
+      <li>
+        <app-generic-input
+          [inputType]="'password'"
+          [label]="'Password'"
+          [control]="this.getControl('password')"
+          [required]="true" />
+      </li>
+    </ul>
+    <button type="submit" matButton="outlined" id="submit-btn">Login</button>
+  </form>
+</section>

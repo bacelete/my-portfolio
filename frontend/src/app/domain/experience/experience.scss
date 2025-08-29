@@ -1,0 +1,72 @@
+* {
+    background-color: black;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#titulo {
+    color: var(--app-pink);
+    text-align: center;
+    font-size: 62px;
+    font-weight: bolder;
+    margin-bottom: 60px;
+}
+
+#subtitulo {
+    color: var(--light-text-white);
+    opacity: 0.55;
+    font-size: 18px;
+}
+
+.card-header {
+    display: flex;
+    gap:20px;
+}
+
+.date {
+    color:var(--app-pink);
+    margin-left: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    max-width: 800px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.description {
+    color: var(--light-text-white);
+    opacity: 0.55;
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 0.65cm;
+}
+
+.experiences {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.icon {
+    font-size: larger;
+}
+
+.experiences-title {
+    color: white;
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+.box {
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px;
+}
