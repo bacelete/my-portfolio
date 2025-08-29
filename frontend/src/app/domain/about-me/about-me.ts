@@ -20,8 +20,8 @@ export class AboutMe {
     pt: {
       title: 'Olá, eu sou',
       name: 'Arthur',
-      subtitle: 'Sou um estudante de Engenharia de Software e estagiário na Hotmart!',
-      presentation: 'Olá! Sou um estudante de engenharia de software com 1 ano de experiência como QA e atualmente estagiário de engenharia de software na Hotmart, além de participar no projeto de extensão da WebTech na PUC Minas. Estudo bastante sobre Cybersegurança e DevOps, mas também tenho amplo conhecimento em desenvolvimento.',
+      subtitle: 'Sou um estudante de Engenharia de Software!',
+      presentation: 'Estudante de Engenharia de Software na PUC Minas com formação técnica em Eletrônica pela UFMG, tenho paixão por tecnologia, desenvolvimento de sistemas e resolução de problemas. Atuo com Java, Spring Boot, Laravel, JavaScript, React e SQL, sempre buscando aprender mais e aplicar esse conhecimento em projetos reais.',
       buttonWork: 'Conheça mais sobre meu trabalho',
       buttonCV: 'Baixar CV',
       sectionTitle: 'Sobre mim'
