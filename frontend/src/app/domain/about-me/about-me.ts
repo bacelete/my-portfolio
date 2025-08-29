@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import 'animate.css';
 import { ButtonComponent } from '../../core/layout/button/button.component';
 import { Router } from '@angular/router';
-import {MatButton} from '@angular/material/button';
+import { MatButton } from '@angular/material/button';
 
 
 @Component({
@@ -21,15 +21,15 @@ export class AboutMe {
       title: 'Olá, eu sou',
       name: 'Arthur',
       subtitle: 'Sou um estudante de Engenharia de Software!',
-      presentation: 'Estudante de Engenharia de Software na PUC Minas com formação técnica em Eletrônica pela UFMG, tenho paixão por tecnologia, desenvolvimento de sistemas e resolução de problemas. Atuo com Java, Spring Boot, Laravel, JavaScript, React e SQL, sempre buscando aprender mais e aplicar esse conhecimento em projetos reais.',
+      presentation: 'Estudante de Engenharia de Software na PUC Minas com formação técnica em Eletrônica pela UFMG, tenho paixão por tecnologia, desenvolvimento de sistemas e resolução de problemas. Atuo com Java, Spring Boot, Laravel, JavaScript, React e SQL, sempre buscando aprender mais e aplicar esse conhecimento em projetos reais.Gosto de entender o funcionamento das coisas, estudar temas diversos e encarar desafios que me tirem da zona de conforto. Acredito que tecnologia é uma ferramenta poderosa para transformar realidades — e é nisso que quero focar minha carreira.',
       buttonWork: 'Conheça mais sobre meu trabalho',
       buttonCV: 'Baixar CV',
       sectionTitle: 'Sobre mim'
     },
     en: {
       title: 'Hi, I am',
-      name: 'Gabriel',
-      subtitle: 'I am a Software Engineering student and an intern at Hotmart!',
+      name: 'Arthur',
+      subtitle: 'I am a Software Engineering student!',
       presentation: 'Hello! I\'m a software engineering student with one year of experience as a QA and currently a software engineering intern at Hotmart, in addition to participating in the WebTech extension project at PUC Minas. I study cybersecurity and DevOps, but I also have extensive development knowledge.',
       buttonWork: 'Check out my work',
       buttonCV: 'Download CV',
@@ -37,7 +37,7 @@ export class AboutMe {
     }
   };
 
-  constructor(private router: Router) {}
+  constructor(private router: Router) { }
 
   handleButtonClick() {
     this.router.navigate(['/projects']);
